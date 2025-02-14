@@ -40,6 +40,7 @@ def main():
             with st.spinner("Processing your query, please wait..."):
                 response = healthcare_chatbot(user_input)
             st.write("Healthcare Assistant:", response)
+            print(reponse)
         else:
             st.write("Please enter a message to get a response or enter a query.")
 
