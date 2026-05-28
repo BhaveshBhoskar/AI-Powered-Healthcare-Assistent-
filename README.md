@@ -24,3 +24,8 @@ The chatbot provides instant responses to common healthcare-related keywords (li
 Ensure you have Python installed on your system. You will need to install the required dependencies before running the application.
 ```bash
 pip install streamlit transformers tensorflow nltk tf-keras
+```
+
+```bash 
+streamlit run chatbot_app.py
+```
